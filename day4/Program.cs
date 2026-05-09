@@ -1,6 +1,8 @@
-﻿// variales of int
+﻿// operators
+// variales of int
 int a = 5;
 int b = 10;
+Console.WriteLine("for reference here are the number we use " + a + " and " + b); 
 
 //perform basic arithmetic operations
 int add = a + b;
@@ -14,12 +16,12 @@ Console.WriteLine("Subtraction: " + subtract);
 Console.WriteLine("Multiplication: " + multiply);
 Console.WriteLine("Division: " + divide);
 
-Console.WriteLine(); // Add a blank line for better readability
+Console.WriteLine();
 
 // variables of double
 double da = 5.5;
 double db = 10.5;
-
+Console.WriteLine("for reference here are the number we use " + da + " and " + db); 
 // perform basic arithmetic operations
 double dadd = da + db;
 double dsubtract = db - da;
